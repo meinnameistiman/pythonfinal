@@ -13,7 +13,6 @@ if name == 'main':
     print(dif)
     print(product)
 
-==========================================================
 
 Mutations
 
@@ -31,3 +30,10 @@ if name__ == 'main__':
     i, c = input().split()
     s_new = mutate_string(s, int(i), c)
     print(s_new)
+    
+    
+String Split and Join
+
+def split_and_join(line):
+    return "-".join(line.split())
+
