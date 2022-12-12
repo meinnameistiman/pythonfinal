@@ -25,6 +25,7 @@ def mutate_string(string, position, character):
     for  x in string:
         text += x
     return text
+    
 if name__ == 'main__':
     s = input()
     i, c = input().split()
